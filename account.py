@@ -144,7 +144,7 @@ class Account:
         return f"Dear {self.name}, your account has been successfully closed. Thank you for banking with us."  
 
 
-        from index import Account
+        from account import Account
         acc1=Account("Anna", 23456)
         acc1.deposit(5000)
         acc1.withdraw(2300)
